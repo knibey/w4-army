@@ -1,0 +1,3 @@
+class Healer : public SpellCaster {
+    
+}

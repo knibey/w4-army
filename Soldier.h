@@ -1,0 +1,3 @@
+class Soldier : public Unit {
+    
+}

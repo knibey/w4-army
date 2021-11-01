@@ -1,0 +1,3 @@
+class Necromancer : public SpellCaster {
+
+}

@@ -1,0 +1,3 @@
+class SpellCaster : public Unit {
+
+}

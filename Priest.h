@@ -1,0 +1,3 @@
+class Priest : public SpellCaster {
+    
+}

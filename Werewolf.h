@@ -1,0 +1,3 @@
+class Werewolf : public Unit {
+    
+}

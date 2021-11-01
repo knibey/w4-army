@@ -1,0 +1,3 @@
+class Vampire : public Unit {
+    
+}

@@ -1,0 +1,3 @@
+class Warlock : public SpellCaster {
+    
+}
