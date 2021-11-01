@@ -3,7 +3,7 @@
 #include <iostream>
 #include <memory>
 
-class States;
+class iStates;
 
 class Unit {
     protected:
@@ -11,9 +11,9 @@ class Unit {
         int damage;
         std::string name;
         bool creet;
-        std::unique_ptr<States> state;
+        std::unique_ptr<iStates> state;
     public:
-        Unit(const std::string& inName, int inHp, int inDamage, std::unique_ptr<States> inState);
+        Unit(const std::string& inName, int inHp, int inDamage, std::unique_ptr<iStates> inState);
 
         virtual ~Unit() = default;
 
