@@ -5,10 +5,10 @@
 
 class iStates;
 
-class Unit {
+class Unit : public iPhysicalDamage {
     protected:
         int hp;
-        int damage;
+        int pDamage;
         std::string name;
         bool creet;
         std::unique_ptr<iStates> state;

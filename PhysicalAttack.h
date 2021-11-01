@@ -1,0 +1,3 @@
+class PhysicalAttack : public iPhysicalDamage {
+    
+}
